@@ -30,7 +30,7 @@ Frontend: HTML, CSS, JavaScript.
 
 ### Como Rodar o Projeto
 
-git clone https:elisio-alberto.github.io/PetShop/
+git clone https:[elisio-alberto.github.io/PetShop/](https://elisio-alberto.github.io/PetShop/)
 
 ### Contriuições 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorias no projeto.
