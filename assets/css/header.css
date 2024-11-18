@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    background-color: #fed059;
+    z-index: 1030;
+
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    height: 6rem;
+    width: auto;
+}
+
+.mostrarNavegacao {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+.mostrarNavegacao a {
+    padding: .1rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.mostrarNavegacao a:hover {
+    background-color: #7d1cb7;
+    transition: background-color 0.3s;
+}
+
+#menu{
+    display: none;
+
+}
+
+#navinit {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    background-color: blueviolet;
+    width: 100%;
+}
+
+#navinit a {
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: .5rem;
+    text-align: center;
+}
+
+#navinit a:hover {
+    background-color: #7d1cb7;
+    transition: background-color 0.3s;
+}
+

@@ -1,0 +1,266 @@
+/* ============================header============================ */
+
+@media (max-width: 85rem) {
+    .mostrarNavegacao a {
+        padding: .1rem 1rem;
+        font-size: .8rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #navinit {
+        flex-direction: column;
+        gap: 0rem;
+        padding: .1rem;
+    }
+
+    #navinit a {
+        padding: .1rem;
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 45rem) {
+
+    body, html {
+        background-color: #7d1cb7;
+        background-size: auto;
+
+    }
+
+    .mostrarNavegacao{
+        display: flex;
+        flex-direction: column;
+        background-color: blueviolet;
+        width: 100%;
+    }
+
+    .ocultarNavegacao{
+        display: none!important;
+
+    }
+
+    #products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: .5rem;
+    }
+
+    #products h2{
+        font-size: 1.8rem;
+    }
+    #products p{
+        font-size: .7rem;
+    }
+
+    #logo {
+        height: 4rem;
+        width: auto;
+    }
+    #menu{
+        display: block;
+        height: 1rem;
+        background-color: blueviolet;
+        width: 100%;
+
+    }
+    #nmenu:hover {
+        background-color: #7d1cb7;
+        transition: background-color 0.3s;
+    }
+}
+
+
+
+
+
+/* ============================main============================ */
+
+@media (max-width: 768px) {
+    #faq {
+        padding: 1rem;
+        margin: 1rem;
+        width: auto;
+    }
+
+    #faq h2 {
+        font-size: 1.5rem;
+    }
+
+    #products {
+        padding: 2rem;
+        background-color: #ca9b24;
+        border-radius: .8rem;
+        box-shadow: 0 .4rem .8rem rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin: 2rem auto;
+        max-width: 60rem;
+        font-family: 'pet';
+    }
+    
+    #products h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    .product-item {
+        display: inline-block;
+        margin: 1rem;
+        text-align: center;
+        max-width: 20%;
+    }
+    
+    .product-item img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-item p {
+        font-size: 1.2rem;
+        margin-top: 0.5rem;
+    }
+    
+    .carrinho,
+    .carrinhos,
+    .carrinhoss {
+        width: 8rem;
+        height: 2rem;
+        background-color: blueviolet;
+    }
+    
+    
+    @media (max-width: 1200px) {
+        .product-item {
+            max-width: 30%; 
+        }
+    }
+    
+    @media (max-width: 900px) {
+        .product-item {
+            max-width: 45%; 
+        }
+    }
+    
+    @media (max-width: 600px) {
+        #products h2 {
+            font-size: 1.5rem; 
+        }
+    
+        .product-item {
+            max-width: 100%; 
+            margin: 0.5rem 0;
+        }
+    
+        .carrinho,
+        .carrinhos,
+        .carrinhoss {
+            width: 100%; 
+            height: 3rem; 
+        }
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    #videos {
+        padding: 1rem;
+        margin: 1rem;
+        width: auto;
+    }
+
+    #videos h2 {
+        font-size: 1.5rem;
+    }
+    #contact {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    #contact h2 {
+        font-size: 1.5rem;
+    }
+
+    #contact p {
+        font-size: 1rem;
+    }
+
+    #contact a {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    #carouselExampleIndicators{
+        display: none;
+    }
+    main{
+        padding-top: 4rem;
+        
+    }
+}
+
+@media (max-width: 1280px) {
+
+.carousel-item img{
+    width: 70%;        
+    height: 100%;
+}}
+@media (max-width: 800px) {
+
+.carousel-item img{
+    width: 100%;        
+    height: 100%;
+}}
+
+
+#videos {
+    padding: 2rem;
+    background-color: #ca9b24;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 50rem;
+}
+
+#videos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: 'pet';
+}
+
+@media (max-width: 1200px) {
+    #videos h2 {
+        font-size: 1.8rem; 
+    }
+}
+
+@media (max-width: 900px) {
+    #videos h2 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    #videos {
+        padding: 1rem;
+    }
+
+    #videos h2 {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+
+
+
+
+/* ============================footer============================ */

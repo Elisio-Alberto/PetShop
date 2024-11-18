@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petiscos e Pelos</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+
+
+</head>
+<body>
+<header>
+    <article class="logo">
+        <img id="logo" src="./assets/img/logo.jfif" alt="petiscos e pelos">
+    </article>
+    <svg id="menu" xmlns="http://www.w3.org/2000/svg" height="3rem" viewBox="0 -960 960 960" width="3rem"
+         fill="#ffffff" onclick="toggleMenu()">
+        <path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"/>
+    </svg>
+    <nav id="navinit" class="ocultarNavegacao mostrarNavegacao">
+        <a href="#carouselExampleIndicators">Home</a>
+        <a href="#products"> Produtos</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Cadastro</a>
+        <a href="#petForm">Contato</a>
+    </nav>
+</header>
+
+<main>
+
+    <!-- carrossellldsandsnaldnasdnasndklnaklsndans -->
+
+    <section id="carouselExampleIndicators" class="carousel slide carousel-editado" style="overflow: hidden;"
+             data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-item active">
+            <img class="d-block " src="./assets/img/7714565.jpg" alt="Primeiro Slide" style="object-fit: cover;">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block" src="./assets/img/7766967.jpg" alt="Segundo Slide" style="object-fit: cover;">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block " src="./assets/img/8939934.jpg" alt="Terceiro Slide" style="object-fit: cover;">
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </section>
+
+    <section id="products">
+        <h2>Nossos Produtos</h2>
+        <div class="product-item">
+            <img src="./assets/img/ração.jpg" alt="Produto 1">
+            <p>Petisco Whiskas Temptations Anti Bola de pelo</p>
+            <p>R$ 9,99</p>
+            <button class="carrinho"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM253-696l83 192h301l82-192H253Zm-31-72h570q14 0 20.5 11t1.5 23L702.63-476.14Q694-456 676.5-444T637-432H317l-42 72h493v72H276q-43 0-63.5-36.15-20.5-36.16.5-71.85l52-90-131-306H48v-72h133l41 96Zm114 264h301-301Z"/></svg></button>
+        </div>
+        <div class="product-item">
+            <img src="./assets/img/Ração_Seca_Nutrilus_Pro__Frango___Carne_para_Cães_Filhotes_15_1.webp" alt="Produto 2">
+            <p>Ração Seca Nutrilus Pro+ Frango & Carne para Cães</p>
+            <p>R$ 9,99</p>
+            <button class="carrinhos"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM253-696l83 192h301l82-192H253Zm-31-72h570q14 0 20.5 11t1.5 23L702.63-476.14Q694-456 676.5-444T637-432H317l-42 72h493v72H276q-43 0-63.5-36.15-20.5-36.16.5-71.85l52-90-131-306H48v-72h133l41 96Zm114 264h301-301Z"/></svg></button>
+        </div>
+        <div class="product-item">
+            <img src="./assets/img/raçãos.jpg" alt="Produto 3">
+            <p>Ração Úmida Pedigree Sachê Carne ao Molho da carne</p>
+            <p>R$ 9,99</p>
+            <button class="carrinhoss"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#FFFFFF"><path d="M263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM253-696l83 192h301l82-192H253Zm-31-72h570q14 0 20.5 11t1.5 23L702.63-476.14Q694-456 676.5-444T637-432H317l-42 72h493v72H276q-43 0-63.5-36.15-20.5-36.16.5-71.85l52-90-131-306H48v-72h133l41 96Zm114 264h301-301Z"/></svg></button>
+        
+    </section>
+
+    <section id="videos">
+        <h2>Como Banhamos os Cães</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/92oRoNG9msM?si=9vHKipSeM20Blubu"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+
+    <section id="faq">
+        <h2>FAQ</h2>
+        <div class="faq-item">
+            <h3>Como faço para agendar um serviço?</h3>
+            <p>Você pode agendar um serviço através do nosso site ou entrando em contato pelo WhatsApp.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Quais são os horários de funcionamento?</h3>
+            <p>Nossos horários de funcionamento são de segunda a sexta, das 9h às 18h, e aos sábados, das 9h às 14h.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Quais formas de pagamento são aceitas?</h3>
+            <p>Aceitamos cartões de crédito, débito e pagamentos via Pix.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Como posso entrar em contato com o suporte?</h3>
+            <p>Você pode entrar em contato com o nosso suporte através do chat no site, e-mail ou WhatsApp.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Há alguma política de devolução?</h3>
+            <p>Sim, temos uma política de devolução em até 7 dias após o recebimento do produto, conforme nossa política de satisfação.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Como faço para alterar meus dados cadastrais?</h3>
+            <p>Você pode alterar seus dados cadastrais acessando sua conta no site, na seção "Configurações".</p>
+        </div>
+        <div class="faq-item">
+            <h3>Quais são os prazos de entrega?</h3>
+            <p>Os prazos de entrega variam de acordo com a localidade, mas geralmente são de 3 a 7 dias úteis.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Posso agendar um serviço fora do horário comercial?</h3>
+            <p>Sim, você pode agendar um serviço fora do horário comercial, mas isso estará sujeito à disponibilidade e poderá ter um custo adicional.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Como posso cancelar um pedido ou serviço?</h3>
+            <p>Você pode cancelar um pedido ou serviço através do nosso site, na seção "Meus Pedidos", ou entrando em contato com nosso atendimento.</p>
+        </div>
+        <div class="faq-item">
+            <h3>Oferecem descontos para clientes fiéis?</h3>
+            <p>Sim, oferecemos descontos exclusivos para clientes fiéis, que são aplicados automaticamente no momento do checkout.</p>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Fale Conosco</h2>
+        <p>Entre em contato conosco através do WhatsApp ou envie um email.</p>
+        <a href="https://wa.me/5511999999999" target="_blank" class="btn btn-success">WhatsApp</a>
+        <a href="mailto:contato@petshop.com" class="btn btn-primary">Email</a>
+    </section>
+
+
+    <div class="form-container">
+        <h2>Cadastro de Animal de Estimação</h2>
+        <form id="petForm">
+            <div class="form-group">
+                <label for="petName">Animal de Estimação:</label>
+                <input type="text" id="petName" name="petName" required>
+            </div>
+            <div class="form-group">
+                <label for="breed">Raça:</label>
+                <input type="text" id="breed" name="breed" required>
+            </div>
+            <div class="form-group">
+                <label for="weight">Peso (kg):</label>
+                <input type="number" id="weight" name="weight" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Idade (anos):</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+
+
+
+
+</main>
+
+<footer>
+    <p>&copy; 2024 Petiscos e Pelos. Todos os direitos reservados.</p>
+    <div class="social-media">
+        <a href="https://github.com/elisio-alberto" target="_blank">
+            <img src="./assets/img/github.png" alt="GitHub">
+        </a>
+        <a href="https://br.linkedin.com/in/elisio-alberto-968462336u" target="_blank">
+            <img src="./assets/img/linkedin.png" alt="LinkedIn">
+        </a>
+        <a href="https://twitter.com/petshop_virtual" target="_blank">
+            <img src="./assets/img/twitter.png" alt="Twitter">
+        </a>
+        <a href="https://www.facebook.com/petshopcom/?locale=pt_BR" target="_blank">
+            <img src="./assets/img/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/lordpetstore/" target="_blank">
+            <img src="./assets/img/instagram.png" alt="Instagram">
+        </a>
+    </div>
+</footer>
+</body>
+<script>
+
+    function toggleMenu() {
+        const nav = document.getElementById('navinit');
+        nav.classList.toggle('mostrarNavegacao');
+        nav.classList.toggle('ocultarNavegacao');
+    }
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="./assets/script.js"></script>
+</html>
